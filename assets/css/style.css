@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "sans-serif";
+    color: #000000;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+    margin: 2rem;
+    width: 75%;
+  }
+  
+  .header__logo {
+    width: 3.4rem;
+    height: 3.4rem;
+    border-radius: 0.3rem;
+    margin: 1rem;
+  }
+  
+  .header__title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.25rem;
+  }
+  
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    flex-direction: column;
+  }
+  
+  .seccion-cards-1 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .containerCard1 {
+    margin-right: 4rem;
+  }
+  
+  .containerCard1__title {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  .containerCard1__images {
+    width: 37.6rem;
+    height: 19.6rem;
+    border-radius: 1.25rem;
+  }
+  
+  .sub-containerCard1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sub-containerCard1__logo {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+  }
+  
+  .sub-containerCard1__text {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  
+  /* seccion de containerCard2 */
+  
+  .cards2 {
+    display: flex;
+    margin-bottom: 1.5rem;
+  }
+  
+  .cards2__image {
+    width: 12.8rem;
+    height: 10rem;
+    border-radius: 1.25rem;
+    margin-right: 20px;
+  }
+  
+  .container-card2 {
+    line-height: 15px;
+  }
+  
+  .container-card2__title {
+    font-size: 1.25rem;
+    width: 55%;
+    line-height: 25px;
+  }
+  
+  .sub-containerCard2 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sub-containerCard2__logo {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2rem;
+    margin-right: 1rem;
+  }
+  
+  .sub-containerCard2__text {
+    font-weight: 500;
+  }
+  
+  /* seccion de card parte 2 populares*/
+  
+  .seccion-2 {
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+  }
+  
+  .seccion-card-2 {
+    display: flex;
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+    margin: 2rem;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .seccion-populares-cards {
+    display: flex;
+  }
+  
+  .seccion-2-cards{
+    margin: 1rem;
+  }
+  
+  .seccion-2-cards__image {
+    width: 18.6rem;
+    height: 12.5rem;
+    border-radius: 1rem;
+  }
+  
+  .sub-seccion-2-cards {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sub-seccion-2-cards__logo {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .sub-seccion-2-cards__text {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  
+  /* SECCION CATEGORIA */
+  .seccion-categoria {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 22.5rem;
+    height: 6rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .seccion-categoria__image {
+    width: 6.3rem;
+    height: 4.6rem;
+  }
+  
+  .seccion-categoria__title {
+    color: white;
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+  .seccion-categoria__link{
+     text-decoration: none;
+     color: #000000;
+  }
+  
+  .bg-rojo-oscuro{
+      background-color: #E93E30;
+  }
+  
+  .bg-amarillo-dorado{
+      background-color: #F7E018;
+  }
+  
+  .bg-azul-claro{
+      background-color: #299ED5 ;
+  }
+  
+  .bg-gris-oscuro{
+      background-color: #292C33;
+  }
+  
+  .bg-verde-claro{
+      background-color: #67C770;
+  }
+  
+  .bg-morado-oscuro{
+      background-color: #563D7C;
+  }
+  
+  footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footerLogo{
+    display: flex;
+    margin-right: 21rem;
+  }
+  
+  .footerLogo__image{
+    width: 3.4rem;
+    height: 3.4rem;
+    border-radius: 0.3rem;
+    margin: 1rem;
+  
+  }
+  
+  .footerLink{
+    margin-left: 21rem;
+  }
+  
+  .footerLink__link{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.4rem;
+  }

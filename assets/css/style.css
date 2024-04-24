@@ -164,16 +164,7 @@ body {
   }
   
   
-  /* SECCION CATEGORIA */
-  .seccion-categoria {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 22.5rem;
-    height: 6rem;
-    border-radius: 0.5rem;
-    margin-bottom: 1.5rem;
-  }
+
   
   .seccion-categoria__image {
     width: 6.3rem;
@@ -190,28 +181,69 @@ body {
      color: #000000;
   }
   
-  .bg-rojo-oscuro{
-      background-color: #E93E30;
+  .seccion-categoria--bg-rojo-oscuro {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 22.5rem;
+    height: 6rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+    background-color: #E93E30;
+  }
+  .seccion-categoria--bg-amarillo-dorado{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 22.5rem;
+    height: 6rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+    background-color: #F7E018;
   }
   
-  .bg-amarillo-dorado{
-      background-color: #F7E018;
+  .seccion-categoria--bg-azul-claro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 22.5rem;
+    height: 6rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+    background-color: #299ED5 ;
   }
   
-  .bg-azul-claro{
-      background-color: #299ED5 ;
+  .seccion-categoria--bg-gris-oscuro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 22.5rem;
+    height: 6rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+    background-color: #292C33;
   }
   
-  .bg-gris-oscuro{
-      background-color: #292C33;
+  .seccion-categoria--bg-verde-claro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 22.5rem;
+    height: 6rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+    background-color: #67C770;
   }
   
-  .bg-verde-claro{
-      background-color: #67C770;
-  }
-  
-  .bg-morado-oscuro{
-      background-color: #563D7C;
+  .seccion-categoria--bg-morado-oscuro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 22.5rem;
+    height: 6rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+    background-color: #563D7C;
   }
   
   footer{
